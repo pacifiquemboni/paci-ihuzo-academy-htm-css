@@ -1,0 +1,132 @@
+body{
+
+  margin: 0;
+}
+#header {
+  border: 1px solid #fb3d3d;
+  text-align: center;
+  background-color: #fb3d3d;
+}
+
+h1 {
+  border: 5px solid white;
+  width: 160px;
+  font-size: 25px;
+  color: white;
+  border-radius: 50px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome {
+  background-color: yellow;
+  height: 300px;
+  
+  border: 1px solid yellow;
+}
+.active{
+  color: #fb3d3d;
+}
+.welcomecont {
+  width: 340px;
+  background-color: rgb(189, 189, 12);
+  display: block;
+  margin-left: 0;
+  margin-right: auto;
+  margin-top: 70px;
+  height: 150px;
+  font-size: 30px;
+}
+.nav{
+  border: 1px solid #727483;
+  background-color: #727483;
+}
+.navlink{
+  
+  /* background-color: aqua; */
+  display: block;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.navlink ul{
+  display: flex;
+  justify-content: space-between;
+  
+}
+li{
+  font-weight: bold;
+  list-style: none;
+}
+.body{
+  margin-left: 230px;
+  margin-right: 200px;
+  /* border: 1px solid; */
+  height: auto;
+}
+.pics{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.pics img{
+  width: 380px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+.footer1{
+  height: 200px;
+  background-color: #727483;
+  text-align: center;
+  padding-top: 40px;
+}
+input{
+  border-radius: 50px;
+  width: 160px;
+  height: 30px;
+  border: none;
+}
+footer{
+  background-color: #fb3d3d;
+  text-align: center;
+  margin: 0;
+  border: 1px solid #fb3d3d;
+  font-weight: bold;
+}
+
+/* resposive styles */
+
+@media screen and (max-width: 1214px) {
+  .body{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .navlink{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 960px){
+  .body{
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .navlink{
+    margin-left: 50px;
+    margin-right: 100px;
+  }
+}
+@media screen and (max-width: 860px){
+  .pics img{
+    width: 600px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 860px){
+  .pics img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 20px;
+  }
+}
